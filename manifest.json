@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Send paper | Rendeiro lab",
+  "version": "1.0",
+  "description": "Sends the current page's info to the Rendeiro lab mailing list.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Send page info by email"
+  }
+}
